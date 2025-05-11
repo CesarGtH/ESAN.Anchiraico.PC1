@@ -51,16 +51,7 @@ fun CalculatorPetAge(navController: NavController){
                 //Keyboard number
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
             )
-            /*Text("Porcentaje de propina: ${percentage.toInt()}%")
 
-            //Create Slider
-            Slider(
-                value = percentage,
-                onValueChange = {percentage = it},
-                valueRange = 0f..40f,
-                steps = 5,
-                modifier = Modifier.fillMaxWidth()
-            )*/
             Text("Actividad Física:")
             Box{
                 OutlinedButton(
